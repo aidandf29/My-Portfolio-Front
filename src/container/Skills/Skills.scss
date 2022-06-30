@@ -1,0 +1,95 @@
+.Skill__heading {
+  margin: 50px 0 20px 0;
+
+  h4 {
+    color: #250e77;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 30px;
+  }
+  .skill__content {
+    .img {
+      width: 50px;
+    }
+  }
+  h1 {
+    font-size: 60px;
+    color: #3c3e41;
+  }
+}
+
+.Skills__container {
+  max-width: 95%;
+  margin: auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 35px;
+}
+
+.p {
+  color: #3c3e41;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.Skill__section {
+  padding: 50px;
+  margin: 20px 0 0 0;
+  //   font-size: 30px;
+  //   margin-top: 20px;
+  //   transition: 0.5s;
+  //   opacity: 0;
+  //   color: white;
+}
+
+.box {
+  padding: 50px;
+
+  h2 {
+    margin: 20px 0 20px 0;
+  }
+  p {
+    word-spacing: 2px;
+    transition: 0.2s;
+    &:hover {
+      color: white;
+    }
+  }
+  i {
+    font-size: 30px;
+    margin-top: 20px;
+    transition: 0.5s;
+    opacity: 0;
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
+.btn_shadow {
+  padding: 18px 25px;
+  border-radius: 6px;
+  transition: 0.3s all ease;
+  cursor: pointer;
+  color: #000;
+  transition: 0.5s;
+}
+.btn_shadow {
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+}
+.btn_shadow:hover {
+  background: #250e77;
+  color: white;
+  transform: translateY(-10px);
+}
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

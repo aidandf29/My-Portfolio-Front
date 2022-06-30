@@ -1,0 +1,167 @@
+.about__section {
+  padding: 4rem 0 4rem;
+}
+
+.containerr {
+  max-width: 87%;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  text-align: center;
+}
+
+.gridd {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.about__title {
+  padding-top: 3rem;
+  font-size: 2.5rem;
+  color: hsl(250, 8%, 15%);
+}
+
+.about__subtitle {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 3rem;
+}
+
+.about__title,
+.about__subtitle {
+  text-align: center;
+}
+
+.about__img {
+  width: 200px;
+  border-radius: 0.5rem;
+  justify-self: center;
+  align-self: center;
+}
+
+.about__desc {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.aboout___info {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 2.5rem;
+}
+
+// .about_info_flex {
+//   display: flex;
+//   justify-content: space-evenly;
+//   margin-bottom: 2.5rem;
+// }
+
+.aboout__info-name {
+  font-size: 1.5rem;
+  display: block;
+  text-align: center;
+}
+
+.about__info-title {
+  margin-top: 0.5rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: hsl(250, 8%, 15%);
+  display: block;
+  text-align: center;
+}
+
+.about__button-CV {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+  padding-left: 40%;
+}
+
+.about__buttonn {
+  display: inline-block;
+  background-color: hsl(250, 69%, 61%);
+  color: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+
+  &:hover {
+    background-color: #250e77;
+  }
+}
+.button__icon {
+  font-size: 1.25rem;
+  margin-left: 0.5rem;
+  transition: 0.3s;
+}
+.button-flex_ {
+  display: inline-flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .containerr {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .about__subtitle {
+    margin-bottom: 4rem;
+  }
+
+  .about__section {
+    top: 0;
+    bottom: initial;
+  }
+  .about__container {
+    column-gap: 5rem;
+  }
+  .about__img {
+    width: 360px;
+  }
+  .about__desc {
+    text-align: initial;
+  }
+  .aboout__info {
+    justify-content: space-between;
+  }
+  .about__button-CV {
+    justify-content: initial;
+  }
+  .about__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .aboout__info {
+    span {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
+
+.btnn {
+  margin-top: 3rem;
+  padding: 1rem;
+  background-color: #b562db;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+
+  &hover {
+    opacity: 1;
+  }
+}
+.message {
+  padding: 15px 40px;
+  background-color: #81aaf8;
+  cursor: pointer;
+  box-shadow: 0 7px #250e77;
+  color: #090924;
+  a {
+    color: #250e77;
+  }
+}
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
