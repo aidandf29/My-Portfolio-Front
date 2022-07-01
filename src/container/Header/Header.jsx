@@ -37,7 +37,7 @@ const Header = () => {
 
             <p>
               I’m Undergraduate Student of Computer Engineering at Universitas
-              Indonesia. Untill now still exited about learn new thing.
+              Indonesia. Untill now still excited about learn new thing.
             </p>
           </div>
 

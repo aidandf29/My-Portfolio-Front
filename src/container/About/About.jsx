@@ -16,13 +16,13 @@ const About = () => {
 
         <div className="about__content">
           <p className="about__desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            My full name is Muhammad Aidan Daffa Junaidi. This year I am turning
+            21. I am a 7th-semester student at the University of Indonesia
+            Computer Engineering major. I declare myself as a person that hunger
+            for knowledge and determination to turn information into action. I
+            am able to handle multiple tasks on a daily basis, energetic, eager
+            learn new skills, and a dependable person who is great at time
+            management.
           </p>
           <div className="about___info">
             <Container>
