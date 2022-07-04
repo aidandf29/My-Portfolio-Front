@@ -34,7 +34,7 @@ const data = [
     id: 6,
     image: "https://img.icons8.com/glyph-neue/50/000000/polyline.png ",
     title: "Network Engineer",
-    desc: "It uses a dictionary of over 200 Latin words, combined with a handful of model sentence.",
+    desc: "I have an interest in becoming a network engineer",
   },
   {
     id: 7,
