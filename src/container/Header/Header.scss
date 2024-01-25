@@ -81,10 +81,12 @@
 
 .header .right_img img {
   position: absolute;
-  top: 10%;
-  right: 0%;
+  top: 9.5%;
+  right: 1%;
   width: 510px;
+  // bottom: 5%;
   justify-content: center;
+  // max-width: 10%;
 }
 
 @media (max-width: 768px) {

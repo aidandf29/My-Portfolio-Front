@@ -16,13 +16,15 @@ const About = () => {
 
         <div className="about__content">
           <p className="about__desc">
-            My full name is Muhammad Aidan Daffa Junaidi. This year I am turning
-            21. I am a 7th-semester student at the University of Indonesia
-            Computer Engineering major. I declare myself as a person that hunger
-            for knowledge and determination to turn information into action. I
-            am able to handle multiple tasks on a daily basis, energetic, eager
-            learn new skills, and a dependable person who is great at time
-            management.
+            My full name is Muhammad Aidan Daffa Junaidi. I am currently 23
+            years old. I am in my final semester at the University of Indonesia,
+            majoring in Data Engineering & Business Intelligence. I assert
+            myself as an individual with a fervent appetite for knowledge and a
+            resolute commitment to translating information into actionable
+            insights. I possess the capability to manage multiple tasks daily,
+            demonstrating both energy and eagerness to acquire new skills.
+            Additionally, I am a dependable individual known for my exceptional
+            time management skills.
           </p>
           <div className="about___info">
             <Container>
@@ -38,7 +40,7 @@ const About = () => {
                 </Col>
                 <Col>
                   <div className="about_info_flex">
-                    <span class="about__info-title">01+</span>
+                    <span class="about__info-title">02+</span>
                     <span class="about__info-name">
                       Years <br />
                       experience
@@ -47,7 +49,7 @@ const About = () => {
                 </Col>
                 <Col>
                   <div className="about_info_flex">
-                    <span class="about__info-title">01+</span>
+                    <span class="about__info-title">03+</span>
                     <span class="about__info-name">
                       companies <br />
                       experience

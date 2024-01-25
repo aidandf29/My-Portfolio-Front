@@ -1,5 +1,6 @@
 import logo from "../assets/logo.png";
 import profile from "../assets/profile.png";
+import aidan from "../assets/aidan.png";
 import circle from "../assets/circle.svg";
 import flutter from "../assets/flutter.png";
 import redux from "../assets/redux.png";
@@ -19,6 +20,7 @@ export default {
   flutter,
   sass,
   redux,
+  aidan,
 
   instagram,
   whatsapp,
