@@ -1,64 +1,80 @@
-const data = [
+const platform = [
   {
     id: 1,
     image: "https://img.icons8.com/ios/64/000000/menu.png",
-    title: "Business Strategy",
-    desc: "Love to plan and think what srategy should i took from my own business.",
+    title: "Programming Languages",
+    desc: "Proficient at Python, JavaScript, SQL, C, and Dart.",
   },
   {
     id: 2,
     image: "https://img.icons8.com/ios/40/000000/open-book.png",
-    title: "Mobile Development",
-    desc: "I have Experience develop mobile application using flutter, java, and kotlin.",
+    title: "Data Analysis and Visualization",
+    desc: "Experienced with Tableau, Power BI, Excel, matplotlib, and seaborn.",
   },
   {
     id: 3,
     image:
       "https://img.icons8.com/fluency-systems-regular/64/000000/retro-tv.png ",
-    title: "Web Development",
-    desc: "I have Experience develop web application using react and boostrap framework.",
+    title: "Machine Learning and AI",
+    desc: "Skilled in TensorFlow, Keras, and Scikit-learn.",
   },
   {
     id: 4,
     image: "https://img.icons8.com/material-outlined/64/000000/topic--v1.png ",
-    title: "UI UX Designer",
-    desc: "Love to design and think about how having a great time using digital product",
+    title: "Big Data Technologies",
+    desc: " Knowledgeable in Hadoop, Spark, and AWS.",
   },
   {
     id: 5,
     image: "https://img.icons8.com/ios-filled/64/000000/wifi.png ",
-    title: "QA Enginner",
-    desc: "I have Experience work as QA Engineer",
+    title: "Databases",
+    desc: "Experienced with MySQL, PostgreSQL, and NoSQL.",
   },
   {
     id: 6,
     image: "https://img.icons8.com/glyph-neue/50/000000/polyline.png ",
-    title: "Data Science",
-    desc: "Love the experience when do data science stuff",
-  },
-  {
-    id: 7,
-    image: "https://img.icons8.com/glyph-neue/50/000000/polyline.png ",
-    title: "Data Engineer",
-    desc: "Love the experience when do data Engineer stuff",
-  },
-  {
-    id: 8,
-    image: "https://img.icons8.com/glyph-neue/50/000000/polyline.png ",
-    title: "Business Intelligence",
-    desc: "I have an interest in becoming a Business Intelligence and i am excited to be",
-  },
-  {
-    id: 9,
-    image: "https://img.icons8.com/glyph-neue/50/000000/polyline.png ",
-    title: "AI Engineer",
-    desc: "I have an interest in becoming Ai engineer and i am excited to be",
-  },
-  {
-    id: 10,
-    image: "https://img.icons8.com/glyph-neue/50/000000/polyline.png ",
-    title: "English",
-    desc: "With my background education, I consider having a good English.",
+    title: "Colaboration Tools",
+    desc: "Proficient with Git and Jira",
   },
 ];
-export default data;
+
+const skill = [
+  {
+    id: 1,
+    image: "https://img.icons8.com/ios/64/000000/menu.png",
+    title: "Data Wrangling",
+    desc: "Cleaning, transforming, and organizing raw data for analysis.",
+  },
+  {
+    id: 2,
+    image: "https://img.icons8.com/ios/40/000000/open-book.png",
+    title: "Statistical Analysis",
+    desc: "Applying statistical methods to interpret data.",
+  },
+  {
+    id: 3,
+    image:
+      "https://img.icons8.com/fluency-systems-regular/64/000000/retro-tv.png ",
+    title: "Business Intelligence",
+    desc: "Creating dashboards and reports to support business decisions.",
+  },
+  {
+    id: 4,
+    image: "https://img.icons8.com/material-outlined/64/000000/topic--v1.png ",
+    title: "Problem Solving",
+    desc: "Analyzing complex problems and devising effective solutions.",
+  },
+  {
+    id: 5,
+    image: "https://img.icons8.com/ios-filled/64/000000/wifi.png ",
+    title: "Collaboration",
+    desc: "Working effectively within cross-functional teams.",
+  },
+  {
+    id: 6,
+    image: "https://img.icons8.com/glyph-neue/50/000000/polyline.png ",
+    title: "Language",
+    desc: "Proficient in reading, writing, and speaking English.",
+  },
+];
+export { platform, skill };

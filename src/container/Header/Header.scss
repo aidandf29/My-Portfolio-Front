@@ -89,7 +89,7 @@
   // max-width: 10%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
   .header .right,
   .header .left {
     width: 100%;
@@ -111,6 +111,14 @@
   .header .right_img {
     width: 100%;
     height: 54vh;
+  }
+}
+@media (max-width: 1399px) and (min-width: 1200px) {
+  .right_img {
+    img {
+      transform: translate(60px, -10px);
+      // Geser ke kanan sebesar 20px, sesuaikan nilai sesuai kebutuhan
+    }
   }
 }
 

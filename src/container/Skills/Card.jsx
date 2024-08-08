@@ -1,5 +1,5 @@
 import React from "react";
-import data from "./SkillAPI";
+import { platform, skill } from "./SkillAPI";
 const Card = (props) => {
   return (
     <>

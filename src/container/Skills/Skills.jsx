@@ -1,7 +1,6 @@
 import React from "react";
 import Card from "./Card";
-import data from "./SkillAPI";
-
+import { platform, skill } from "./SkillAPI";
 import "./Skills.scss";
 
 const Skills = () => {
@@ -9,10 +8,23 @@ const Skills = () => {
     <div className="Skill__section">
       <div className="Skill__container">
         <div className="Skill__heading">
-          <h4>My Skill and Feature</h4>
-          <h1 id="skills">What I Do</h1>
+          <h4>What I Do</h4>
+          <h1 id="skills">Platforms and Tools</h1>
           <div className="Skill__content grid">
-            {data.map((val, index) => {
+            {platform.map((val, index) => {
+              return (
+                <Card
+                  key={index}
+                  // image={val.image}
+                  title={val.title}
+                  desc={val.desc}
+                />
+              );
+            })}
+          </div>
+          <h1 id="skills2">Professional Skills</h1>
+          <div className="Skill__content grid">
+            {skill.map((val, index) => {
               return (
                 <Card
                   key={index}

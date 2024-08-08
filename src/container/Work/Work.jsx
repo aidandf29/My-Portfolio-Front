@@ -84,6 +84,7 @@ const Work = () => {
           "Website",
           "Mobile App",
           "AI",
+          "Data Science",
           "Other",
           "All",
         ].map((item, index) => (

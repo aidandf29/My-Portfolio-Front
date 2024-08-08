@@ -10,7 +10,7 @@ const Header = () => {
       <div className="header">
         <div className="container f_flex top">
           <div className="left top profile">
-            <h3>Youkoso!</h3>
+            {/* <h3>Welcome</h3> */}
             <h1>
               Halo, I’m <span>Aidan Daffa</span>
             </h1>
