@@ -21,8 +21,7 @@ const Header = () => {
                   words={[
                     " QA Engineer.",
                     " Fullstack Developer.",
-                    " UX Designer",
-                    " Network Engineer",
+                    " AI Engineer.",
                     " Data Engineer",
                     " Data Analyst",
                     " Data Scientist",
@@ -39,10 +38,9 @@ const Header = () => {
             </h2>
 
             <p>
-              I am a graduate student with a Bachelor's degree, currently
-              pursuing my Master's degree in Data Engineering & Business
-              Intelligence at the University of Indonesia. Untill now still
-              excited about learn new thing.
+              I hold a Master's degree majoring in Data Engineering & Business
+              Intelligence from the University of Indonesia. Passionate about
+              learning new things and continuously expanding my knowledge.
             </p>
           </div>
 

@@ -16,15 +16,15 @@ const About = () => {
 
         <div className="about__content">
           <p className="about__desc">
-            My full name is Muhammad Aidan Daffa Junaidi. I am currently 23
-            years old. I am in my final semester at the University of Indonesia,
-            majoring in Data Engineering & Business Intelligence. I assert
-            myself as an individual with a fervent appetite for knowledge and a
-            resolute commitment to translating information into actionable
-            insights. I possess the capability to manage multiple tasks daily,
-            demonstrating both energy and eagerness to acquire new skills.
-            Additionally, I am a dependable individual known for my exceptional
-            time management skills.
+            My full name is Muhammad Aidan Daffa Junaidi. I am 23 years old and
+            hold a Master's degree in Data Engineering & Business Intelligence
+            from the University of Indonesia. I pride myself on being an
+            individual with a fervent appetite for knowledge and a strong
+            commitment to translating information into actionable insights. I
+            excel at managing multiple tasks efficiently, showcasing energy,
+            enthusiasm, and a continuous drive to acquire new skills.
+            Furthermore, I am a dependable individual recognized for exceptional
+            time management and organizational abilities.
           </p>
           <div className="about___info">
             <Container>
