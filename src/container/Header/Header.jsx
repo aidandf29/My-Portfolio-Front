@@ -12,7 +12,7 @@ const Header = () => {
           <div className="left top profile">
             {/* <h3>Welcome</h3> */}
             <h1>
-              Halo, I’m <span>Aidan Daffa</span>
+              ようこそ, I’m <span>Aidan Daffa</span>
             </h1>
             <h2>
               a
