@@ -1,5 +1,8 @@
 @import "~bootstrap/scss/bootstrap";
-
+html,
+body {
+  background-color: var(--primary-color); // Gunakan warna latar belakang utama
+}
 .app {
   background-color: var(--primary-color);
   font-family: var(--font-base);
