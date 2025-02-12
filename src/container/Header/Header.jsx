@@ -20,11 +20,9 @@ const Header = () => {
                 <Typewriter
                   words={[
                     " QA Engineer.",
-                    " Fullstack Developer.",
+                    " Software Engineer.",
                     " AI Engineer.",
-                    " Data Engineer",
                     " Data Analyst",
-                    " Data Scientist",
                     " Business Intelligence",
                   ]}
                   loop
